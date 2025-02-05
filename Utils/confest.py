@@ -11,7 +11,7 @@ class MainTestRunner:
         """ Initialize WebDriver and login once """
         if cls.driver is None:
             #Please change the driver path as your chromedriver's file locations
-            driver_path = r"C:\Users\SINGER\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe"
+            driver_path = r"C:\Users\neosolax\Downloads\chromedriver-win64 (2)\chromedriver-win64\chromedriver.exe"
             service = Service(driver_path)
             cls.driver = webdriver.Chrome(service=service)
             cls.driver.get("https://mumzworld.com/")
