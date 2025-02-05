@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Django-specific files
+db.sqlite3
+db.sqlite3-journal
+*.log
+*.pot
+*.pyc
+
+# Migrations (optional: remove if you want to track migrations)
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Static and media files
+staticfiles/
+media/
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Local settings (if used)
+settings_local.py
+
+# VS Code / PyCharm / IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Node.js dependencies (if using npm/yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Cache files
+*.cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Docker / Deployment
+Dockerfile
+*.dockerfile
+*.pid
